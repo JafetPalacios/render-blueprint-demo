@@ -10,10 +10,3 @@ services:
         value: production
       - key: BLUEPRINT_MODE
         value: manual
-
-  - type: web
-    name: render-blueprint-delete-test
-    runtime: node
-    plan: free
-    buildCommand: npm install
-    startCommand: npm start
