@@ -8,3 +8,5 @@ services:
     envVars:
       - key: APP_ENV
         value: production
+      - key: BLUEPRINT_MODE
+        value: manual
